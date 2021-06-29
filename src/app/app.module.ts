@@ -25,8 +25,8 @@ import { AuthButtonComponent } from './components/auth/auth-button/auth-button.c
     BrowserModule,
     AppRoutingModule,
     AuthModule.forRoot({
-      domain: 'dev-zkw-hlqv.us.auth0.com',
-      clientId: 'UA9rOAPDoy0r4FqayMsSkj3RBfvFbflh'
+      domain: '', //load domain and clientId of Auth0 user
+      clientId: ''
     }),
   ],
   providers: [],
